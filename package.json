@@ -1,0 +1,23 @@
+{
+  "name": "wexp",
+  "version": "1.0.0",
+  "description": "wexp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "miniprogram": "./",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chaunjie/wexp.git"
+  },
+  "keywords": [
+    "wexp"
+  ],
+  "author": "chaunjie",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chaunjie/wexp/issues"
+  },
+  "homepage": "https://github.com/Chaunjie/wexp#readme"
+}
