@@ -18,6 +18,31 @@
 | $route | 页面通过该方法进行页面之间的跳转 | `Function` |`this.$router(type, path, params)` | `type：跳转的类型（navigate、redirect、switch）三种类型，分别代表（navigateTo、redirectTo、switchTab）， path代表路径（例： '../login/index'）， params代表参数(例：{name: 'xxx', id: 'xxx'})` |
 | $back | 页面通过该方法进行页面退回 | `Function` |`this.$back()` | `num代表回退几个页面，默认num为1` |
 
+##### 页面支持使用watch和computed属性
+
+```javascript
+computed = {
+  getName () {
+    const {obj, arr} = this.data
+    console.log(obj)
+    return obj.obj.name + arr[0].name
+  }
+}
+
+ watch = {
+  page (newValue) {
+    console.log(newValue)
+  },
+  arr (newValue) {
+    console.log(newValue)
+  },
+  obj (newValue) {
+    console.log(newValue)
+  }
+}
+```
+
+
 
 #### component
 
