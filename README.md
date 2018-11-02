@@ -3,7 +3,7 @@
 ## 快速入门指南
 
 ### 使用 npm 创建 wexp 项目
-这里就不介绍安装和创建项目了详情可以查看[安装于创建教程](https://chaunjie.github.io/kui/dist/#/start)
+这里就不介绍安装和创建项目了，详情可以查看[安装和创建项目教程](https://github.com/Chaunjie/wexp-cli)
 
 
 ### API
