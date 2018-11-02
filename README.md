@@ -23,9 +23,8 @@
 ```javascript
 computed = {
   getName () {
-    const {obj, arr} = this.data
-    console.log(obj)
-    return obj.obj.name + arr[0].name
+    const {obj} = this.data
+    return obj.obj.name
   }
 }
 
